@@ -1,8 +1,8 @@
 {
-  "name": "calypso-iframe",
-  "version": "1.0.0",
+  "name": "async-responsive-iframe",
+  "version": "0.1.0",
   "main": "src/index.js",
-  "repository": "git@github.com:Boaterfly/calypso-iframe.git",
+  "repository": "git@github.com:Boaterfly/async-responsive-iframe.git",
   "author": "nfabredev <nicolas.fabre@boaterfly.com>",
   "license": "MIT",
   "private": false,
