@@ -1,0 +1,22 @@
+{
+  "name": "calypso-iframe",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:Boaterfly/calypso-iframe.git",
+  "author": "nfabredev <nicolas.fabre@boaterfly.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "@babel/preset-env": "^7.3.1"
+  },
+  "browserslist": [
+    "cover 95%"
+  ]
+}
