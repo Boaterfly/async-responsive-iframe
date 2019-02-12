@@ -5,6 +5,9 @@
   "repository": "git@github.com:Boaterfly/async-responsive-iframe.git",
   "author": "nfabredev <nicolas.fabre@boaterfly.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=6.4.0"
+  },
   "private": false,
   "scripts": {
     "build": "webpack --mode production"
