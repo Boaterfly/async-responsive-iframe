@@ -22,5 +22,8 @@
   },
   "browserslist": [
     "cover 95%"
-  ]
+  ],
+  "dependencies": {
+    "iframe-resizer": "4.0.4"
+  }
 }
