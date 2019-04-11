@@ -1,4 +1,5 @@
 module.exports = {
+  watch: true,
   module: {
     rules: [
       // transpile js file using babel
@@ -6,9 +7,9 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
-        }
-      }
-    ]
-  }
+          loader: 'babel-loader',
+        },
+      },
+    ],
+  },
 };
