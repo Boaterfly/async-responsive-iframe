@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const data = { mail: container.dataset.mail };
 
-  iframeResizer.iFrameResize({
+  iframeResizer({
     log: false,
     checkOrigin: false,
     onInit(node) {
