@@ -13,8 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
   iframe.style.border = 'none';
 
   container.innerHTML = iframe.outerHTML;
+  const { mail, countries } = container.dataset;
 
-  const data = { mail: container.dataset.mail };
+  const data = { mail, countries };
 
   iframeResizer({
     log: false,
