@@ -4,7 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const container = document.querySelectorAll(
     '[data-ref="async-responsive-iframe"]',
   )[0];
-  const { url } = container.dataset;
+
+  const {
+    mail, countries, theme, url,
+  } = container.dataset;
 
   const iframe = document.createElement('iframe');
   iframe.setAttribute('src', url);
@@ -13,9 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
   iframe.style.border = 'none';
 
   container.innerHTML = iframe.outerHTML;
-  const { mail, countries } = container.dataset;
 
-  const data = { mail, countries };
+  const data = { mail, countries, theme };
 
   iframeResizer({
     log: false,
