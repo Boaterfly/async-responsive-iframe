@@ -1,12 +1,12 @@
 {
   "name": "async-responsive-iframe",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "main": "dist/main.js",
   "repository": "git@github.com:Boaterfly/async-responsive-iframe.git",
   "author": "nfabredev <nicolas.fabre@boaterfly.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=10.15.0"
   },
   "private": false,
   "scripts": {
@@ -30,5 +30,9 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "iframe-resizer": "4.0.4"
-  }
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ]
 }
