@@ -1,15 +1,13 @@
 # Async-responsive-iframe
 
-This script will load `your.iframe.url` provided a DOM node with the following attributes is present:
+This script will attach to a DOM node with a data-ref attribute of "async-responsive-iframe" value an iframe pointing to the provided data-url value.
 
 ```html
 <div data-ref="async-responsive-iframe" data-url="https://your.iframe.url"></div>
 ```
 
-It will then:
+It will also:
 
-- create an iframe in that node
-- set the iframe url to the `data-url` attribute
 - style the iframe with no border and a 100% width
-- wait for a message from the iframe using the [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) API, sending the height of the document inside the iframe
-- get that height and set the iframe's height to the received value.
+- use [iframeResizer](https://github.com/davidjbradshaw/iframe-resizer) to style the height of the iframe to match the children document.
+- communicate to the iframe using the postMessage API to send over the following data attributes [mail, countries, theme, site, group] as a `data` object.
