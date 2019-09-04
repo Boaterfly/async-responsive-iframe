@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   )[0];
 
   const {
-    mail, countries, theme, url, group,
+    mail, countries, theme, url, group, poweredByLogo,
   } = container.dataset;
 
   const iframe = document.createElement('iframe');
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const site = window.location.hostname;
 
   const data = {
-    mail, countries, theme, site, group,
+    mail, countries, theme, site, group, poweredByLogo,
   };
 
   iframeResizer({
