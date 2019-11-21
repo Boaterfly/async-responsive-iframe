@@ -1,6 +1,6 @@
 {
   "name": "async-responsive-iframe",
-  "version": "0.2.5",
+  "version": "0.2.6-rc.1",
   "main": "dist/main.js",
   "repository": "git@github.com:Boaterfly/async-responsive-iframe.git",
   "author": "nfabredev <nicolas.fabre@boaterfly.com>",
